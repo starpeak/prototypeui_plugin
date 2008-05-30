@@ -1,0 +1,23 @@
+Prototypeui
+===========
+
+Plugin for using prototype-ui within RoR.
+See http://www.prototype-ui.com/ for prototype-ui
+
+To install run
+
+script/plugin install git://github.com/starpeak/prototypeui_plugin.git
+
+from your project.
+
+
+Example
+=======
+
+Example for opening content in a prototype-ui ajax window within a .rhtml file:
+
+<%= link_to_window 'Test Window', :url=>{:controller=>'home',:action=>'testwindow',:id=>12, :test=>true}, :theme=>"leopard", :shadow=>true %>
+
+
+
+Copyright (c) 2008 StarPeak OnlineMedia and Sven G. Bršnstrup, released under the MIT license

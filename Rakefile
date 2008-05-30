@@ -2,6 +2,10 @@ require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
 
+PKG_NAME = "prototype_ui"
+PKG_VERSION   = pre_alpha
+PKG_FILE_NAME = "#{PKG_NAME}-#{PKG_VERSION}"
+
 desc 'Default: run unit tests.'
 task :default => :test
 
